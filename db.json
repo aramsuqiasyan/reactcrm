@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "aramsuqiasyan@yandex.ru",
+      "password": "12345678",
+      "name": "Admin"
+    }
+  ],
+  "bill": {
+    "value": 1000000,
+    "currency": "EUR"
+  },
+  "categories": [
+    {
+      "name": "News",
+      "number": 1500,
+      "id": 1
+    },
+    {
+      "name": "Food",
+      "number": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Car",
+      "number": 7000
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "Fri Nov 08 2019"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "Fri Nov 08 2019"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "Fri Nov 08 2019",
+      "id": 3
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "Fri Nov 08 2019",
+      "id": 4
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "Fri Nov 08 2019",
+      "id": 5
+    }
+  ]
+}
